@@ -16,8 +16,7 @@ int main()
         {
             time(&t2);
 
-            if ( t2 >= t1 )
-            {
+            if ( t2 >= t1 ) {
                 t1 = t2 + TIMEOUT_PERIOD;
                 printf("1 minute has passed: %d\n", (int)t1);
                 printf("FLUSH:<message id=2324 attr><intamac-ping></intamac-ping>\n");

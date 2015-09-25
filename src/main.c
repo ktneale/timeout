@@ -33,8 +33,7 @@ int main()
     {
         t2 = get_current_time();
 
-        if ( t2 >= t1 )
-        {
+        if ( t2 >= t1 ) {
             t1 = t2 + TIME_PERIOD;
             printf("TIMER EXPIRED! %d seconds have passed. t1 = %d\n", TIME_PERIOD, t1);
         }           
